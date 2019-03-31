@@ -84,7 +84,13 @@ ul{
 	margin: 1.4em;
 	overflow: hidden;
 }
-
+ #logo{
+    display:grid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    object-fit: contain;
+ }
 
  .know {
      width: 35%;

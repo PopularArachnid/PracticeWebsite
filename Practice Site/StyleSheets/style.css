@@ -19,6 +19,7 @@ h1 {
     border: 2px solid white;
     padding: 20px;
     text-align: center;
+    border-bottom-style: hidden;
 }
 
 h2{
@@ -54,10 +55,8 @@ p{
     margin: 10px;
 }
 li{
-
-	width: 80%;
 	color: 	#4c4040;
-	list-style-type: decimal-leading-zero;
+	list-style-type: decimal;
 	line-height: 1.2em;
     letter-spacing: -1px;
 
@@ -68,6 +67,8 @@ ul{
 .table {
 	display: table;   /* Allow the centering to work */
 	margin: 0 auto;
+    border: groove white 3px;
+    background-color: grey;
 }
 
 /*#title1{
@@ -86,18 +87,22 @@ ul{
 
 
  .know {
-     width: 50%;
+     width: 35%;
      padding: 5px;
      margin: 20px;
      border: 2px double black;
      float: left;
+     opacity: 0.75;
+     background-color: white;
  }
 .learn {
-    width: 50%;
+    width: 35%;
     padding: 5px;
     margin: 20px;
     border: 2px double black;
-    float: left;
+    float: right;
+    opacity: 0.75;
+    background-color: white;
 }
 
 .active{
